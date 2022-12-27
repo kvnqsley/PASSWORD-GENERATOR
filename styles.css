@@ -1,0 +1,64 @@
+:root{
+    --bcolor:rgb(66,88,99);
+}
+.container{
+    position: relative;
+    left: 20%;
+    background-color: var(--bcolor);
+    width: 200px;
+    padding: 13px 50px;
+    height: 70vh;
+}
+h2{
+    position: relative;
+    top: 3px;
+}
+input{
+   position: absolute;
+   right: 4px;
+   cursor: pointer;
+}
+.inputs{
+    margin-top: 14px;
+    
+}
+#length{
+    font-size: 1em;
+    font-weight:bold
+}
+.screen{
+    width:246px;
+    background-color: violet;
+height: 18px;
+color: white;
+font-size: 1.2em;
+}
+.btn{
+    position: relative;
+    padding: 6px;
+    display: block;
+    left: 209px;
+    background-color: rgba(80, 11, 80, 0.241);
+    opacity: 1;
+    z-index: 100;
+    cursor: pointer;
+    color: #FFF;
+    border: none;
+}
+.generate button{
+padding: 15px;
+margin-top: 10px;
+background-color: violet;
+cursor: pointer;
+border-radius: 10px;
+transition: all ease-in-out .4s .2s;
+}
+.generate button:hover{
+    letter-spacing: 2px;
+    color: #FFF;
+    border-radius: 10px;
+}
+textarea{
+  position: relative;
+  top: -200em;
+}
